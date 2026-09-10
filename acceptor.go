@@ -11,13 +11,13 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	"github.com/jcmturner/gokrb5/v8/gssapi"
-	"github.com/jcmturner/gokrb5/v8/iana/errorcode"
-	ianaflags "github.com/jcmturner/gokrb5/v8/iana/flags"
-	"github.com/jcmturner/gokrb5/v8/keytab"
-	"github.com/jcmturner/gokrb5/v8/messages"
-	"github.com/jcmturner/gokrb5/v8/spnego"
-	"github.com/jcmturner/gokrb5/v8/types"
+	"github.com/otuschhoff/gokrb5/v8/gssapi"
+	"github.com/otuschhoff/gokrb5/v8/iana/errorcode"
+	ianaflags "github.com/otuschhoff/gokrb5/v8/iana/flags"
+	"github.com/otuschhoff/gokrb5/v8/keytab"
+	"github.com/otuschhoff/gokrb5/v8/messages"
+	"github.com/otuschhoff/gokrb5/v8/spnego"
+	"github.com/otuschhoff/gokrb5/v8/types"
 )
 
 // Acceptor represents the server side of the GSSAPI protocol.

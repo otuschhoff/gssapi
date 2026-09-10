@@ -7,9 +7,9 @@ import (
 	"strings"
 
 	"github.com/go-logr/logr"
-	"github.com/jcmturner/gokrb5/v8/config"
-	"github.com/jcmturner/gokrb5/v8/credentials"
-	"github.com/jcmturner/gokrb5/v8/keytab"
+	"github.com/otuschhoff/gokrb5/v8/config"
+	"github.com/otuschhoff/gokrb5/v8/credentials"
+	"github.com/otuschhoff/gokrb5/v8/keytab"
 	"github.com/spf13/afero"
 )
 

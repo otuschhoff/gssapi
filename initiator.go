@@ -9,16 +9,16 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	"github.com/jcmturner/gokrb5/v8/client"
-	"github.com/jcmturner/gokrb5/v8/config"
-	"github.com/jcmturner/gokrb5/v8/crypto"
-	ianaflags "github.com/jcmturner/gokrb5/v8/iana/flags"
-	"github.com/jcmturner/gokrb5/v8/iana/keyusage"
-	"github.com/jcmturner/gokrb5/v8/keytab"
-	"github.com/jcmturner/gokrb5/v8/krberror"
-	"github.com/jcmturner/gokrb5/v8/messages"
-	"github.com/jcmturner/gokrb5/v8/spnego"
-	"github.com/jcmturner/gokrb5/v8/types"
+	"github.com/otuschhoff/gokrb5/v8/client"
+	"github.com/otuschhoff/gokrb5/v8/config"
+	"github.com/otuschhoff/gokrb5/v8/crypto"
+	ianaflags "github.com/otuschhoff/gokrb5/v8/iana/flags"
+	"github.com/otuschhoff/gokrb5/v8/iana/keyusage"
+	"github.com/otuschhoff/gokrb5/v8/keytab"
+	"github.com/otuschhoff/gokrb5/v8/krberror"
+	"github.com/otuschhoff/gokrb5/v8/messages"
+	"github.com/otuschhoff/gokrb5/v8/spnego"
+	"github.com/otuschhoff/gokrb5/v8/types"
 )
 
 // Initiator represents the client side of the GSSAPI protocol.

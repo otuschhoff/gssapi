@@ -5,12 +5,12 @@ import (
 	"fmt"
 
 	"github.com/jcmturner/gofork/encoding/asn1"
-	"github.com/jcmturner/gokrb5/v8/asn1tools"
-	"github.com/jcmturner/gokrb5/v8/messages"
-	"github.com/jcmturner/gokrb5/v8/spnego"
+	"github.com/otuschhoff/gokrb5/v8/asn1tools"
+	"github.com/otuschhoff/gokrb5/v8/messages"
+	"github.com/otuschhoff/gokrb5/v8/spnego"
 )
 
-// This is a 1:1 copy of the type from github.com/jcmturner/gokrb5/v8 with a
+// This is a 1:1 copy of the type from github.com/otuschhoff/gokrb5/v8 with a
 // marshal method that supports all token IDs instead of just the AP-REQ.
 // If/when upstream fixes this omission it can be removed.
 

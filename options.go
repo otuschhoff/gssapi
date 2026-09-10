@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	"github.com/jcmturner/gokrb5/v8/types"
+	"github.com/otuschhoff/gokrb5/v8/types"
 )
 
 // Option is the signature for all constructor options.

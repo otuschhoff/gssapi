@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.5](https://github.com/otuschhoff/gssapi/compare/v0.0.4...v0.0.5) (2026-09-10)
+
+### Bug Fixes
+
+* **deps:** migrate to github.com/otuschhoff/gokrb5/v8 v8.5.3 and update dependencies.
+* Publish the wrapper as github.com/otuschhoff/gssapi; require Go 1.26.0 or newer.
+
 ## [0.0.4](https://github.com/bodgit/gssapi/compare/v0.0.3...v0.0.4) (2026-05-28)
 
 

@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/bodgit/gssapi"
+	. "github.com/otuschhoff/gssapi"
 	"github.com/go-logr/logr/testr"
-	"github.com/jcmturner/gokrb5/v8/gssapi"
-	"github.com/jcmturner/gokrb5/v8/iana/nametype"
-	"github.com/jcmturner/gokrb5/v8/types"
+	"github.com/otuschhoff/gokrb5/v8/gssapi"
+	"github.com/otuschhoff/gokrb5/v8/iana/nametype"
+	"github.com/otuschhoff/gokrb5/v8/types"
 	"github.com/stretchr/testify/assert"
 )
 

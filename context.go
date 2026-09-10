@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	"github.com/jcmturner/gokrb5/v8/gssapi"
-	"github.com/jcmturner/gokrb5/v8/iana/keyusage"
-	"github.com/jcmturner/gokrb5/v8/types"
+	"github.com/otuschhoff/gokrb5/v8/gssapi"
+	"github.com/otuschhoff/gokrb5/v8/iana/keyusage"
+	"github.com/otuschhoff/gokrb5/v8/types"
 )
 
 var (
